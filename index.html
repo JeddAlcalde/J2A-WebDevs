@@ -4,26 +4,33 @@
         <title>J2A-WebDevs</title>
         <meta charset="utf-8">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        
+        <link href="style.css" rel="stylesheet">
+        
         <style>
             div{
                 border: 5px solid black;
                 margin: 5px;
             }
         </style>
-    </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;600&display=swap" rel="stylesheet">    </head>
     <body>
         <!--Header-->
         <div class="row">
             <div class="col">
-                Jedd Alcalde
+                <button href="index.html">
+                    <strong>Jedd Alcalde</strong>
+                </button>
             </div>
             <div class="col-9 d-flex flex-row-reverse">
                 <button class="mx-5" href="about-Jedd/index.html">
-                    About me
+                    <strong>About me</strong>
                 </button>
                 <button class="mx-5" href="contact-us/index.html">
-                    Contact Me
+                    <strong>Contact Me</strong>
                 </button>
             </div>
         </div>
@@ -36,22 +43,23 @@
 
                 <!--First image with picture-->
                 <div class="row d-flex  align-items-center">
-                    <div class="col h-50" style="background-color: aqua;">
-                        text and stuff
+                    <div class="col h-50 standard-font" style="background-color: #dcebf5;">
+                        <h1 style="font-size: 450%;">Passionate work with precise design</h1>
                     </div>
-
+                    
                     <div class="col" style="height: 550px; width: auto; background-color: beige; margin-left: -100px; z-index: -1;">
-                        <img src="">
+                        <img src="" alt="Casual Picture">
                     </div>
                 </div>
 
                 <!--Second image with picture-->
                 <div class="row d-flex  align-items-center">
-                    <div class="col h-50" style="background-color: aqua;">
-                        text and stuff
+                    <div class="col h-50" style="background-color: #f5dddc;">
+                        <h1 style="font-size: 325%;">“Code is like humor. When you have to explain it, it’s bad.” </h1>
+                        <h4 style="font-size: 175%;">– Cory House (Microsoft MVP Recipient and Senior Fullstack Developer)</h4>
                     </div>
                     <div class="col" style="height: 550px; width: auto; background-color: beige; margin-left: -100px; z-index: -1;">
-                        <img src="">
+                        <img src="" alt="Coding Picture">
                     </div>
                 </div>
 
@@ -60,39 +68,50 @@
         <!--Container for 2 pictures w/ text-->
 
         <!--Container for seperate section with different background-->
-        <div class="row " style="background-color: #363636; height: 600px;">
-            <div class="col d-flex align-items-center">
-                <p>Principles</p>
-            </div>
-            <div class="col d-flex align-items-center">
-                <div class="col h-75 w-100">
-                    Thing #1
-                </div>
-
-                <div class="col h-75 w-100">
-                    Thing #2
-                </div>
-            </div>
-            
-            <div class="col d-flex align-items-center">
-                <div class="col h-75 w-100">
-                    Thing #3
-                </div>
-
-                <div class="col h-75 w-100">
-                    Thing #4
-                </div>
-            </div>
-        </div>
-
         <div class="d-flex justify-content-center">
+            <div class="row w-75" style="background-color: #363636; height: 600px;">
+                <div class="col d-flex align-items-center">
+                    <h1 style="color: whitesmoke;">Principles</h1>
+                </div>
+                
+                <div class="col-9 d-flex align-items-center">
+                    
+                    <div class="col h-75 w-100">
+                        <h3 class="mw-25" style="color: whitesmoke">Know the Project Inside-Out and Forwards-Backwards</h3>
+                        <h6 style="color: grey">The key to planning is not understanding a solution but also recoginzing 
+                        every aspect of a problem. Incredibly important when working with code, solutions are more than just
+                        correct and incorrect. Some are slow, fast, small, large, intractive, cooperative, neat, or messy.</h6>
+                    </div>
+                    
+                    <div class="col h-75 w-100">
+                        <h3 class="mw-25" style="color: whitesmoke">Smooth Non-Linear Progress</h3>
+                        <h6 style="color: grey">Progress on any project is never linear no matter what team
+                        but I prioritize smooth long-term workflow over short initial burnout.</h6>
+                    </div>
 
-            <img src="" style="z-index: -1; height: 600px" class="w-75">
-
+                    <div class="col h-75 w-100">
+                        <h3 class="mw-25" style="color: whitesmoke">Clean Organization</h3>
+                        <h6 style="color: grey">Reading code lines should be easily understood, both small and big picture. This allows for ease of
+                        cooperation, easy presentation, and cuts down on time spent trying to understand what you might've wrote weeks prior when debugging.</h6>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="" style="height: 100px; background-color:#363636">
+        <!--Picture-->
+        <div class="d-flex justify-content-center align-items-center">
 
+            <img src="StevensHudsonPic.jpg" alt="NYC/Stevens Picture" style="z-index: -1; height: 600px; border:5px solid brown" class="w-75">
+        
+        </div>
+
+        <!--Footer-->
+        <div class="row justify-content-center align-items-center" style="height: 100px;">
+            <div class=" col w-75 h-100" style=" background-color:#363636">
+                <button href="https://www.instagram.com/jedd_ish/?hl=en">Instagram</button>
+                <button href="https://www.linkedin.com/in/jedd-alcalde-b07b95227/">LinkedIn</button>
+                <button>Discord</button>
+            </div>
         </div>
 
 
