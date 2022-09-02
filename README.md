@@ -13,7 +13,7 @@
 
 ## Description
 
-Website giving users information on J2A-WebDevs. Show users current and completed projects for J2A-WebDevs, submit project ideas, aswell as upload criticisms and complements of projects that we have done for associates. Will also serve as professional profiles for Jedd Alcalde and Allie Panganiban as web developers.
+Website giving users information on Jedd Alcalde. Show users current and completed projects, submit project ideas, aswell as upload criticisms and complements of projects that we have done for associates. Will also serve as professional profile for Jedd Alcalde.
 
 #### Technologies
 - HTML
