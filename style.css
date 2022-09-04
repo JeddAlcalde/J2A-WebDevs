@@ -1,3 +1,16 @@
 body{
     font-family: 'M PLUS 1 Code', sans-serif;
 }
+
+button{
+    background-color: rgba(0, 0 , 0, 0);
+    border-color: rgba(0, 0 , 0, 0);
+}
+
+.short-about{
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5dddc;
+}
