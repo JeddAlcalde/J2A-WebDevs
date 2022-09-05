@@ -14,3 +14,15 @@ button{
     transform: translate(-50%, -50%);
     background-color: #f5dddc;
 }
+
+.headbar{
+    color: grey;
+}
+
+a:hover{
+    color:#cfcfcf
+}
+
+a{
+    text-decoration: none;
+}
