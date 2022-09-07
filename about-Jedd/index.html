@@ -8,12 +8,14 @@
         
         <link href="../style.css" rel="stylesheet">
         
+        <!--
         <style>
             div{
                 border: 5px solid black;
                 margin: 5px;
             }
         </style>
+        -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;600&display=swap" rel="stylesheet">
@@ -47,7 +49,7 @@
             and am open to relocation during the summer. For more, click this!</button></div>
             -->
 
-            <div class="w-25" style="height: 150px; z-index: 1; position: absolute;">
+            <div class="w-25" style="height: 150px; z-index: 1; position: absolute; background-color: #fce8fb;">
                 <h3>A little bit about me</h3>
             </div>
         </div>
@@ -70,12 +72,12 @@
 
                 <!--Second image with picture-->
                 <div class="row d-flex  align-items-center" style="margin-bottom: 50px;">
-                    <div class="col h-75" style="background-color: #f5dddc;">
+                    <div class="col h-75" style="background-color: #f5dddc; position:relative">
                         <h1 style="font-size: 325%;">Here are the projects I've done so far! </h1>
                         <h4 style="font-size: 175%;">Upon clicking each one you will be offered page links and explanations to each one</h4>
                     </div>
 
-                    <div class="row d-flex justify-content-center w-50" style="height: 1000px; width: auto; background-color: beige; margin-left: -100px; z-index: -1;">
+                    <div class="row d-flex justify-content-center w-50 position static" style="height: 1000px; width: auto; background-color: beige; margin-left: -100px; position: static;">
                         <div class="d-flex justify-content-center h-25">
                             <h1 class="" style="font-size: 375%;">Completed Projects</h1>
                         </div>
@@ -83,17 +85,27 @@
                         <div class="d-flex justify-content-center h-75">
                             <ul style="font-size: 200%;">
                                 <li>
-                                    <a href="https://www.theodinproject.com/">The Odin Project</a>
+                                    <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
                                     <ul>
-                                        <li><a href="https://jeddalcalde.github.io/Etch-a-Sketch/">Etch a Sketch</a></li>
-                                        <li><a href="https://jeddalcalde.github.io/Rock-Paper-Scissors/">Rock Paper Scissors</a></li>
-                                        <li><a href="https://jeddalcalde.github.io/odin-landing-page/">Landing Page</a></li>
-                                        <li><a href="">Recipes</a></li>
-                                        <li><a href="https://jeddalcalde.github.io/Calculator/">Calculator</a></li>
+                                        <li>
+                                            <a href="https://jeddalcalde.github.io/Etch-a-Sketch/" target="_blank">Etch a Sketch</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://jeddalcalde.github.io/Rock-Paper-Scissors/" target="_blank">Rock Paper Scissors</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://jeddalcalde.github.io/odin-landing-page/" target="_blank">Landing Page</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://jeddalcalde.github.io/odin-recipes/" target="_blank">Recipes</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://jeddalcalde.github.io/Calculator/" target="_blank">Calculator</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://jeddalcalde.github.io/NewHairForLifeNY-Website/">New Hair New Life</a>
+                                    <a href="https://jeddalcalde.github.io/NewHairForLifeNY-Website/" target="_blank">New Hair New Life</a>
                                 </li>
                                 <li>
                                     <a href="../index.html">Personal Site</a>
@@ -113,13 +125,13 @@
         <!--Footer-->
         <div class="row justify-content-center align-items-center w-100" style="height: 100px;">
             <div class=" col w-75 h-100 d-flex justify-content-center align-items-center" style=" background-color:#363636">
-                <button href="https://www.instagram.com/jedd_ish/?hl=en"><img src="../images/ig-logo.png" style="height: 
-                50px; width: auto;"> </button>
-                <button href="https://www.linkedin.com/in/jedd-alcalde-b07b95227/"><img src="../images/linkedin-logo.png"
-                 style="height: 50px; width: auto;"></button>
-                <button><img src="../images/discord-logo.png" style="height: 50px; width: 75px;"></button>
+                <a href="https://www.instagram.com/jedd_ish/?hl=en" target="_blank" rel="noreferrer noopener"><img src="../images/ig-logo.png" style="height: 
+                50px; width: auto;"> </a>
+                <a href="https://www.linkedin.com/in/jedd-alcalde-b07b95227/" target="_blank" rel="noreferrer noopener"><img src="../images/linkedin-logo.png"
+                 style="height: 50px; width: auto;"></a>
+                <a><img src="../images/discord-logo.png" style="height: 50px; width: 75px;"></a>
                 <!--Button for Discord will require JS-->>
-                <button><img src="../images/github-logo.png" style="height: 50px; width: 50px;"></button>
+                <a href="https://github.com/JeddAlcalde" target="_blank" rel="noreferrer noopener"><img src="../images/github-logo.png" style="height: 50px; width: 50px;"></a>
             </div>
         </div>
     </body>
