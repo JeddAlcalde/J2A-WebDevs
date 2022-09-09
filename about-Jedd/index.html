@@ -74,7 +74,7 @@
                 <div class="row d-flex  align-items-center" style="margin-bottom: 50px;">
                     <div class="col h-75" style="background-color: #f5dddc; position:relative" id="text-changer">
                         <h1 style="font-size: 325%;">Here are the projects I've done so far!</h1>
-                        <h4 style="font-size: 175%;">Upon clicking each one you will be offered page links and explanations to each one</h4>
+                        <h4 style="font-size: 175%;">Upon hovering each one you will be offered page links and explanations to each one. Hovering will give you a breif description on each.</h4>
                     </div>
 
                     <div class="row d-flex justify-content-center w-50 position static" style="height: 1000px; width: auto; background-color: #d8e3df; margin-left: -100px; position: static;">
@@ -105,10 +105,10 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://jeddalcalde.github.io/NewHairForLifeNY-Website/" target="_blank" rel="noreferrer noopener" class="about-projects">New Hair New Life</a>
+                                    <a href="https://jeddalcalde.github.io/NewHairForLifeNY-Website/" target="_blank" rel="noreferrer noopener" class="about-projects" id="nhnl" onmouseover="projectText(true, this);" onmouseout="projectText(false, this);">New Hair New Life</a>
                                 </li>
                                 <li>
-                                    <a href="../index.html" rel="noreferrer noopener" class="about-projects">Personal Site</a>
+                                    <a href="../index.html" rel="noreferrer noopener" class="about-projects" id="ps" onmouseover="projectText(true, this);" onmouseout="projectText(false, this);">Personal Site</a>
                                 </li>
                             </ul>
                         </div>
@@ -131,6 +131,8 @@
                 <a href="https://github.com/JeddAlcalde" target="_blank" rel="noreferrer noopener"><img src="../images/github-logo.png" style="height: 50px; width: 50px;"></a>
             </div>
         </div>
+
+        <script src="script.js"></script>
 
         <!-- Optional JavaScript; choose one of the two! -->
 
