@@ -61,23 +61,23 @@
 
                 <!--First image with picture-->
                 <div class="row d-flex  align-items-center" style="margin-bottom: 50px;">
-                    <div class="col h-50 standard-font" style="background-color: #dcebf5;">
+                    <div class="col standard-font h-75" style="background-color: #dcebf5;">
                         <h1 style="font-size: 500%;">My Education</h1>
                     </div>
                     
-                    <div class="col" style="height: 550px; width: auto; background-color: beige; margin-left: -100px; z-index: -1;">
+                    <div class="col" style="height: 500px; width: auto; background-color: beige; margin-left: -100px; z-index: -1;">
                         <img src="" alt="Me Studying">
                     </div>
                 </div>
 
                 <!--Second image with picture-->
                 <div class="row d-flex  align-items-center" style="margin-bottom: 50px;">
-                    <div class="col h-75" style="background-color: #f5dddc; position:relative" id="text-changer">
-                        <h1 style="font-size: 325%;">Here are the projects I've done so far!</h1>
-                        <h4 style="font-size: 175%;">Upon hovering each one you will be offered page links and explanations to each one. Hovering will give you a breif description on each.</h4>
+                    <div class="col h-75 w-50 " style="background-color: #f5dddc; position:relative" id="text-changer">
+                        <h1 class="fadePossible" style="font-size: 325%;">Here are the projects I've done so far!</h1>
+                        <h4 class="fadePossible" style="font-size: 175%;">Upon hovering each one you will be offered page links and explanations to each one. Hovering will give you a breif description on each.</h4>
                     </div>
 
-                    <div class="row d-flex justify-content-center w-50 position static" style="height: 1000px; width: auto; background-color: #d8e3df; margin-left: -100px; position: static;">
+                    <div class="row d-flex justify-content-center w-50 position static " style="height: 1000px; width: auto; background-color: #d8e3df; margin-left: -100px; position: static;">
                         <div class="d-flex justify-content-center h-25">
                             <h1 class="" style="font-size: 375%;">Completed Projects</h1>
                         </div>
@@ -85,7 +85,7 @@
                         <div class="d-flex justify-content-end h-75">
                             <ul style="font-size: 200%;">
                                 <li>
-                                    <a href="https://www.theodinproject.com/" target="_blank" rel="noreferrer noopener" class="about-projects" id="top" onmouseover="projectText(true, this)">The Odin Project : Foundations</a>
+                                    <a href="https://www.theodinproject.com/" target="_blank" rel="noreferrer noopener" class="about-projects" id="top" onmouseover="projectText(true, this), fadeCallIn(this)" onmouseout="projectText(false, this), fadeCallOut(this)">The Odin Project : Foundations</a>
                                     <ul>
                                         <li>
                                             <a href="https://jeddalcalde.github.io/Etch-a-Sketch/" target="_blank" rel="noreferrer noopener" class="about-projects" id="eas" onmouseover="projectText(true, this);" onmouseout="projectText(false, this);">Etch a Sketch</a>

@@ -30,3 +30,35 @@ a{
 .about-projects{
     color: #485154;
 }
+
+.fadeIn{
+    opacity: 0;
+    -webkit-animation: fadein 2s linear forwards;
+    animation: fadein 2s linear forwards;
+}
+
+@-webkit-keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeOut{
+    opacity: 1;
+    -webkit-animation: fadeout 2s linear forwards;
+    animation: fadeout 2s linear forwards;
+}
+
+@-webkit-keyframes fadeout {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeout {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
